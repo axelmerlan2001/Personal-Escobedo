@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+  <style type="text/css">
+    body{
+      background: linear-gradient(to right, #FF9F01, #FFB438, #FFC15C);
+    }
+    form{
+      margin: 5% 5% 5% 5%;
+    }
+    input[type="password"]
+    {
+      margin: 0% 2% 2% 2%;
+    }
+    input[type="checkbox"]
+    {
+    color: #620000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;      
+    }
+  select 
+  {
+    color: #620000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+  }
+
+    h2
+    {
+      font-family: Cooper Black;
+      color: #C10000;
+      font-size: 40px;
+    }
+    h1
+    {
+      font-family: Cooper Black;
+      color: #019BFF;
+      font-size: 30px;
+    }
+  </style>
+</head>
+<body>
+
+   <center><h2>REGISTRATE O INICIA SESIÓN:</h2></center>
+
+  <form>
+  	<fieldset>
+      <legend>
+        <h1>RELLENA EL SIGUIENTE FORMULARIO</h1>
+      </legend>
+  		<center>
+  		<h3>INGRESA TU NOMBRE:</h3><input type=text name=nombre>
+  		
+  		<h3>INGRESA TU CORREO:</h3>
+  		<input type="email" name="correo">
+  		<br>
+  		<h3>INGRESA TU EDAD:</h3>
+  		<input type="number" name="edad">
+  		<br>
+  		<h3>INGRESA TU CONTRASEÑA</h3>
+  		<input type="password" name="contraseña">
+    </center>
+  	</fieldset>
+  </form>
+
+  <form>   
+     <fieldset>
+       <legend><h1>OTROS DATOS:</h1></legend>
+       <center>
+        <h3>ESTADO CIVIL</h3>
+        <select>
+        <option disabled selected>Seleccione una opcion</option>
+        <option>Soltero</option>
+        <option>Casado</option>
+        <option>Union</option>
+        </select>
+        <h3>SEXO:</h3>
+        <input type="radio" name="sexo">Masculino
+        <input type="radio" name="sexo">Femenino
+        <br>
+        <h3>HOBBIES:</h3>
+        <tr>
+        <td><center><input type="checkbox" name="hobbie">JUGAR VIDEOJUEGOS</center></td>
+        <br>
+        <td><center><input type="checkbox" name="hobbie">SALIR CON AMIGOS</center></td>
+        <br>
+        <td><center><input type="checkbox" name="hobbie">CORRER</center></td>
+        <br>
+        <td><center><input type="checkbox" name="hobbie">NADAR</center></td>
+        </tr>
+        </center>
+     </fieldset>
+  </form>
+
+</body>
+</html>
